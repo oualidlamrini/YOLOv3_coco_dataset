@@ -14,7 +14,7 @@ créer un envirenement de travail à l'aide de la commande:
 
 ## 2.Installation des packages 
 
-- Installation des packages python nécessaires pour tourner le code souce `yolov3.py` avec la commande:
+- Installation des packages python nécessaires pour tourner le script `yolov3_script.py` avec la commande:
 
 `pip install -r Requirements.txt`
 
@@ -42,7 +42,10 @@ Clonner le dépot git via la commande:
 - `yolov3_source.py`: contient les fonctions sources
 - `yolov3_script.py`: le script qui fait le detection d'objets.
 
+## 5.Execution 
+Afin d'executer le script `yolov3_script.py`,il suffit d'ouvrir le dossier **YOLOv3_coco_dataset** via *vscode* puis executer les deux cellules du script.
 
+NB:On paurrait juste taper la commande `python yolov3_script.py`,pourtant on a rencontré des erreurs de compatibilité de version du package `tensorflow`. 
 
 
 
