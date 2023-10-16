@@ -4,4 +4,6 @@
 *.flf
 .DS-store/
 .gitattributes/
-*.ttf
+*.tt
+--pycache--
+
