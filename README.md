@@ -51,7 +51,7 @@ NB:On paurrait juste tapper la commande `python yolov3_script.py`,pourtant on a 
 ## 6.Suppression de l'envirenement
 
 Pour supprimer l'envirenement et tous les packages y installés tappez:
-- 1- `conda dactivate yolov3` 
+- 1- `conda deactivate yolov3` 
 - 2- `conda remove -n yolov3 --all`
   
 Puis vérifiez la suppression avec la commande: 
