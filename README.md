@@ -43,9 +43,9 @@ Clonner le dépot git via la commande:
 - `yolov3_script.py`: le script qui fait le detection d'objets.
 
 ## 5.Execution 
-Afin d'executer le script `yolov3_script.py`,il suffit d'ouvrir le dossier **YOLOv3_coco_dataset** via *vscode* puis executer les deux cellules du script.
+Afin d'executer le script `yolov3_script.py`,il suffit d'ouvrir le dossier **YOLOv3_coco_dataset** via **vscode**, puis executer les deux cellules du script.
 
-NB:On paurrait juste taper la commande `python yolov3_script.py`,pourtant on a rencontré des erreurs de compatibilité de version du package `tensorflow`. 
+NB:On paurrait juste tapper la commande `python yolov3_script.py`,pourtant on a rencontré des erreurs de compatibilité de versions du package `tensorflow`. 
 
 
 
