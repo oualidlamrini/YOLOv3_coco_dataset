@@ -4,7 +4,7 @@ Le but de ce dépôt git est d'illustrer le méthode de détectiond'objets **YOL
 
 Pour reproduire le travail presenté dans ce dépôt  git, on propose de suivre le mini-guide ci-dessous:
 
-NB:L'installation de [anaconda](https://www.anaconda.com/download/) et [pip](https://pip.pypa.io/en/stable/installation/) est suppposée faite. 
+NB:L'installation de [anaconda](https://www.anaconda.com/download/) et [pip](https://pip.pypa.io/en/stable/installation/) est suppposée déjà faite. 
 
 ## 1.Création d'un envirenement 
 
@@ -37,16 +37,15 @@ Clonner le dépot git via la commande:
 ## 4.Composition du repo git
 
 - `coco.names `: contient les 80 classes d'objets du jeu de données *coco* .
-- `dog.jpg` et `office.jpg`:representent les images sur le squelles on applique la méthode *yolov3*
+- `dog.jpg` et `office.jpg`:representent les images sur lesquelles on applique la méthode *yolov3* .
 - `yolov3.weights`: contient les estimations des paramettres d'apprentisssage.
-- `yolov3_source.py`: contient les fonctions sources
-- `yolov3_script.py`: le script qui fait le détectiond'objets.
+- `yolov3_source.py`: contient les fonctions sources.
+- `yolov3_script.py`: le script codant la détection d'objets.
 
 ## 5.Execution 
 Afin d'executer le script `yolov3_script.py`,il suffit d'ouvrir le dossier **YOLOv3_coco_dataset** via **vscode**, puis executer les deux cellules du script.
 
-NB:On paurrait juste tapper la commande `python yolov3_script.py`,pourtant on a rencontré des erreurs de compatibilité de versions du package `tensorflow`. 
-
+NB:On paurrait juste tapper la commande `python yolov3_script.py`,pourtant on a rencontré des erreurs de compatibilité de versions du package `tensorflow` qui empêche l'execution normale du script.
 
 
 
