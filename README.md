@@ -38,6 +38,7 @@ Clonner le dépot git via la commande:
 
 - `coco.names `: contient les 80 classes d'objets du jeu de données *coco* .
 - `dog.jpg` et `office.jpg`:representent les images sur lesquelles on applique la méthode *yolov3* .
+- `futur.ttf`: font de police avec lequel on affiche la classe de l'objet détecté.
 - `yolov3.weights`: contient les estimations des paramettres d'apprentisssage.
 - `yolov3_source.py`: contient les fonctions sources.
 - `yolov3_script.py`: le script codant la détection d'objets.
