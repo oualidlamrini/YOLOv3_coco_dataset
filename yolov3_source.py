@@ -5,7 +5,9 @@ from PIL import Image, ImageDraw, ImageFont
 from IPython.display import display
 from seaborn import color_palette
 import cv2
+import os
 #%%
+PATH=os.getcwd()
 _BATCH_NORM_DECAY = 0.9
 _BATCH_NORM_EPSILON = 1e-05
 _LEAKY_RELU = 0.1
@@ -463,7 +465,7 @@ def draw_boxes(img_names, boxes_dicts, class_names, model_size):
                                          boxes_dicts):
         img = Image.open(img_name)
         draw = ImageDraw.Draw(img)
-        font = ImageFont.truetype(font='/Users/oualidlamrini/Documents/YOLOv3_coco_dataset/futur.ttf',
+        font = ImageFont.truetype(font=os.path.join(os.getcwd(),'futur.ttf'),
                                   size=(img.size[0] + img.size[1]) // 100)
         resize_factor = \
             (img.size[0] / model_size[0], img.size[1] / model_size[1])
@@ -579,11 +581,11 @@ def load_weights(variables, file_name):
 
 
 #%%
-img_names = ['/Users/oualidlamrini/Documents/YOLOv3_coco_dataset/oualid.jpg']
+img_names = [os.path.join(os.getcwd(),'dog.jpg'),os.path.join(os.getcwd(),'office.jpg')]
 for img in img_names: display(Image.open(img))
 batch_size = len(img_names)
 batch = load_images(img_names, model_size=_MODEL_SIZE)
-class_names = load_class_names('/Users/oualidlamrini/Documents/YOLOv3_coco_dataset/coco.names')
+class_names = load_class_names(os.path.join(os.getcwd(),'coco.names'))
 n_classes = len(class_names)
 max_output_size = 10
 iou_threshold = 0.5
@@ -600,7 +602,7 @@ inputs = tf.compat.v1.placeholder(tf.compat.v1.float32, [batch_size, 416, 416, 3
 detections = model(inputs, training=False)
 
 model_vars = tf.compat.v1.global_variables(scope='yolo_v3_model')
-assign_ops = load_weights(model_vars, '/Users/oualidlamrini/Documents/YOLOv3_coco_dataset/yolov3.weights')
+assign_ops = load_weights(model_vars, os.path.join(os.getcwd(),'yolov3.weights'))
 
 
 with tf.compat.v1.Session() as sess:
@@ -608,4 +610,5 @@ with tf.compat.v1.Session() as sess:
     detection_result = sess.run(detections, feed_dict={inputs: batch})
     
 draw_boxes(img_names, detection_result, class_names, _MODEL_SIZE)
+
 #%%
