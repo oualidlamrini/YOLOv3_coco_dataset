@@ -5,5 +5,5 @@
 .DS-store/
 .gitattributes/
 *.tt
---pycache--
+**/--pycache--/
 
