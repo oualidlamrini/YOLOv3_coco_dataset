@@ -48,5 +48,14 @@ Afin d'executer le script `yolov3_script.py`,il suffit d'ouvrir le dossier **YOL
 
 NB:On paurrait juste tapper la commande `python yolov3_script.py`,pourtant on a rencontré des erreurs de compatibilité de versions du package `tensorflow` qui empêche l'execution normale du script.
 
+## 6.Suppression de l'envirenement
+
+Pour supprimer l'envirenement et tous les packages y installés tappez:
+- 1- `conda dactivate yolov3` 
+- 2- `conda remove -n yolov3 --all`
+  
+Puis vérifiez la suppression avec la commande: 
+
+- 3- `conda env list` 
 
 
