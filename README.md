@@ -18,7 +18,7 @@ créer un envirenement de travail à l'aide de la commande:
 
 `pip install -r Requirements.txt`
 
-- Installation du client **GIT LFS** pour pouvoir cloner les fichier lourds Pour :
+- Installation du client **GIT LFS** pour pouvoir cloner les fichier lourds:
 
     - [Mac](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) 
 
