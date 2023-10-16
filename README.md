@@ -1,6 +1,6 @@
 # YOLOv3_coco_dataset
 
-Le but de ce dépôt git est d'illustrer le méthode de detection d'objets **YOLOv3**  pré-entrainé avec le jeu de données [coco](https://cocodataset.org/#home) qui contient 330K images et 80 classes d'objets ,en reprenant le [code](https://www.kaggle.com/code/aruchomu/yolo-v3-object-detection-in-tensorflow)  source de **HEARTKILLA** sur Kaggle.
+Le but de ce dépôt git est d'illustrer le méthode de détectiond'objets **YOLOv3**  pré-entrainé avec le jeu de données [coco](https://cocodataset.org/#home) qui contient 330K images et 80 classes d'objets ,en reprenant le [code](https://www.kaggle.com/code/aruchomu/yolo-v3-object-détection-in-tensorflow)  source de **HEARTKILLA** sur Kaggle.
 
 Pour reproduire le travail presenté dans ce dépôt  git, on propose de suivre le mini-guide ci-dessous:
 
@@ -40,7 +40,7 @@ Clonner le dépot git via la commande:
 - `dog.jpg` et `office.jpg`:representent les images sur le squelles on applique la méthode *yolov3*
 - `yolov3.weights`: contient les estimations des paramettres d'apprentisssage.
 - `yolov3_source.py`: contient les fonctions sources
-- `yolov3_script.py`: le script qui fait le detection d'objets.
+- `yolov3_script.py`: le script qui fait le détectiond'objets.
 
 ## 5.Execution 
 Afin d'executer le script `yolov3_script.py`,il suffit d'ouvrir le dossier **YOLOv3_coco_dataset** via **vscode**, puis executer les deux cellules du script.
