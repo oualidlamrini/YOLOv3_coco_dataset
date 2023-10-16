@@ -1,6 +1,6 @@
 # YOLOv3_coco_dataset
 
-Le but de ce dépôt git est d'illustrer le méthode de détectiond'objets **YOLOv3**  pré-entrainé avec le jeu de données [coco](https://cocodataset.org/#home) qui contient 330K images et 80 classes d'objets ,en reprenant le [code](https://www.kaggle.com/code/aruchomu/yolo-v3-object-détection-in-tensorflow)  source de **HEARTKILLA** sur Kaggle.
+Le but de ce dépôt git est d'illustrer la méthode de détection d'objets **YOLOv3**  pré-entrainée avec le jeu de données [coco](https://cocodataset.org/#home) qui contient 330K images et 80 classes d'objets ,en reprenant le [code](https://www.kaggle.com/code/aruchomu/yolo-v3-object-détection-in-tensorflow)  source de **HEARTKILLA** sur Kaggle.
 
 Pour reproduire le travail presenté dans ce dépôt  git, on propose de suivre le mini-guide ci-dessous:
 
