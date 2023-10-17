@@ -18,7 +18,7 @@ créer un envirenement de travail à l'aide de la commande:
     - 1- `conda activate yolov3`
     - 2- `pip install -r Requirements.txt`
 
-- Installation du client **GIT LFS** pour pouvoir cloner les fichier lourds:
+- Installation du client **GIT LFS** pour pouvoir cloner les fichiers lourds:
 
     - [Mac](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) 
 
@@ -27,7 +27,7 @@ créer un envirenement de travail à l'aide de la commande:
     - [Linx](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage?platform=linux) 
 
 
-## 3.Clonner le repo git 
+## 3.Cloner le repo git 
 
 Clonner le dépot git via la commande: 
 
